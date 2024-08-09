@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="icon" type="image/x-icon" href="Screenshot_2023-09-21_120503-removebg-preview.png"/>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header_section long_section px-0">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand">
+            <span class="edg"  id="userName"></span>
+          </a>
+          <div class="collapse navbar-collapse">
+            <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="webPage.html">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html"> ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="furniture.html">OUTFITTS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">CONTACT US</a>
+                </li>
+              </ul>
+            </div>
+            <div class="quote_btn-container">
+                <a href="index.html" id="logoutButton">
+                    <span class="log">
+                      LOGOUT <i class="fa fa-user" aria-hidden="true" style="color: black;"></i>
+                    </span>
+                  </a>                  
+            </div>
+          </div>
+        </nav>
+    </header>
+    <!-- --------------------about--------------------------->
+    <section class="about_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="img-box">
+              <img src="WhatsApp_Image_2023-09-21_at_12.49.45_PM-removebg-preview.png" alt="image">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="detail-box" style="background-color: #f9fafa;">
+              <div>
+                <h2 style="font-weight: 800;">
+                  ABOUT US
+                </h2>
+              </div>
+              <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat excepturi aliquid accusantium perferendis veniam ab, fuga itaque eveniet, libero dolor vero, voluptatibus distinctio quia repudiandae sunt recusandae dolorem nisi velit?
+              </p>
+              <a href="about.html">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!--------------------------footer-------------------------->
+  <section class="footer_section long_section">
+
+    <div class="container">
+      <div class="footer_nav">
+        <a href="#!">
+          <i class="fa fa-phone" aria-hidden="true"></i>
+          <span>
+            Call : +01 123456789
+          </span>
+        </a>
+        <a href="#!">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          <span>
+            Email : demo@gmail.com
+          </span>
+        </a>
+        <a href="#!">
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          <span>
+            Location
+          </span>
+        </a>
+      </div>
+
+      <div class="footer_top ">
+        <div class="row ">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="footer_links">
+              <h4 style="position: relative;  margin-bottom: 25px;">
+                QUICK LINKS
+              </h4>
+              <div class="footer_links_menu">
+                <a class="" href="webPage.html">Home <span class="sr-only">(current)</span></a>
+                <a class="" href="about.html"> About</a>
+                <a class="" href="furniture.html">OUTFITTS</a>
+                <a class="" href="contact.html">Contact Us</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 mx-auto">
+            <div class="footer_post">
+              <h5>
+                INSTAGRAM FEEDS
+              </h5>
+              <div class="post_box" id="image-container"></div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer_form">
+              <h4>
+                SIGN UP TO OUR NEWSLETTER
+              </h4>
+              <form action="">
+                <input type="text" placeholder="Enter Your Email" />
+                <button type="submit">
+                  Subscribe
+                </button>
+              </form>
+              <div class="social_box">
+                <a href="#!">
+                  <i class="fa-brands fa-facebook" style="color: #6bb7be;"></i>
+                </a>
+                <a href="#!">
+                  <i class="fa-brands fa-twitter" style="color: #6bb7be;"></i>
+                </a>
+                <a href="#!">
+                  <i class="fa-brands fa-instagram" style="color: #6bb7be;"></i>
+                </a>
+                <a href="#!">
+                  <i class="fa-brands fa-linkedin" style="color: #6bb7be;"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="last_section">
+    <div class="container">
+      <p style="padding: 20px;">&copy; <span>2023</span> All Rights Reserved By Free Html Templates</p>
+    </div>
+  </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script2.js"></script>
+</body>
+</html>
